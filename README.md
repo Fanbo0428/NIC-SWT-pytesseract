@@ -1,4 +1,4 @@
-#Contents
+# Contents
 1.[Introduction](#Introduction)
 2.[Environment Setup](#Environment Setup)
 3.[Customize configurations](#Customize configurations)
@@ -44,17 +44,17 @@ $shell python ~/install_nltk_data.py
 $shell python ~/utils.py 
 
 This can give you a word list containing all the nouns for further operation.
-#Test
+# Test
 For running test, type the command below in you terminal:
 
 $shell python ~/performance_test.py -i inputImage
 
-#Training
+# Training
 Training in this case have two meanings:
 1. You want to train the image caption (Google NIC) model with you own data: see the train part in  https://github.com/tensorflow/models/tree/master/research/im2txt for details. You can also get information on how authors train the model by my own data in the project report.
 2. You want to modify the SWT model for text detection for better result: Go to https://github.com/aperrau/DetectText and get the code. You can generate your own DetectText to replacr the original one for better performance. 
 
-#FAQs
+# FAQs
 Some problems faced by authors and the solutions are listed here for convenience.
 1.For running the SpaCy model in English, you may need to add 
 
