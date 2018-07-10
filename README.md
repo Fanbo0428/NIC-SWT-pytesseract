@@ -1,10 +1,10 @@
 # Contents
-1.[Introduction](# Introduction)
-2.[Environment Setup](# Environment Setup)
-3.[Customize configurations](# Customize configurations)
-4.[Test](# Test)
-5.[Training](# Training)
-6.[FAQs](# FAQs)
+1.[Introduction](#Introduction)
+2.[Environment Setup](#Environment Setup)
+3.[Customize configurations](#Customize configurations)
+4.[Test](#Test)
+5.[Training](#Training)
+6.[FAQs](#FAQs)
 # Introduction
 This code is for assembling Google's NIC model, SWT and tesseract to do the tasks on image caption with text recognition. See the report for details
 # Environment Setup
