@@ -1,11 +1,11 @@
 # Contents
-1.[Introduction](#Introduction)
-2.[Environment Setup](#Environment Setup)
-3.[Customize configurations](#Customize configurations)
+1.[Introduction](#1)
+2.[Environment Setup](# Environment Setup)
+3.[Customize configurations](# Customize configurations)
 4.[Test](#Test)
 5.[Training](#Training)
 6.[FAQs](#FAQs)
-# Introduction
+ <h2 id="1"># Introduction</h2>
 This code is for assembling Google's NIC model, SWT and tesseract to do the tasks on image caption with text recognition. See the report for details
 # Environment Setup
 For running the code, make sure that you've got environment for Google's NIC model in your computer first. See https://github.com/tensorflow/models/tree/master/research/im2txt for details.
