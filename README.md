@@ -1,13 +1,20 @@
 # Contents
 1.[Introduction](#1)
-2.[Environment Setup](# Environment Setup)
-3.[Customize configurations](# Customize configurations)
-4.[Test](#Test)
-5.[Training](#Training)
-6.[FAQs](#FAQs)
- <h2 id="1"># Introduction</h2>
+
+2.[Environment Setup](#2)
+
+3.[Customize configurations](#3)
+
+4.[Test](#4)
+
+5.[Training](#5)
+
+6.[FAQs](#6)
+
+ <h2 id="1">Introduction</h2>
 This code is for assembling Google's NIC model, SWT and tesseract to do the tasks on image caption with text recognition. See the report for details
-# Environment Setup
+
+ <h2 id="2">Environment Setup</h2>
 For running the code, make sure that you've got environment for Google's NIC model in your computer first. See https://github.com/tensorflow/models/tree/master/research/im2txt for details.
 
 After you build up the enrironment for running Google's NIC model, copy the file 'run_inference.py' to replace the original one in the corresponding directory. 
@@ -29,7 +36,7 @@ The for models and data in SpaCy, download all the models for NLP in English.
 $shell sudo python -m spacy.en.download all
 
 
-# Customize configurations
+<h2 id="3">Customize configurations</h2>
 In the prcocess of developing the models, some configurations in code are only acceptable in developer's computer. Here for running in your own computer, you need to modify some codes in the files below:
 
 performance_test.py
